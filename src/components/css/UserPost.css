@@ -1,0 +1,29 @@
+.User .User__main, .Post .Post__main{
+    display: flex;
+    background-color: #632a94;
+    border: 4px solid #EC4067;
+    border-radius: 6px;
+    margin: 8px 0 24px 0;
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.User .User__main .User__main-info {
+    display: flex;
+}
+
+.User .User__main div, .Post .Post__main div, .User .User__main-btns, .Post .Post__main-btns{
+    margin: 0 12px;
+}
+
+
+.User__main-btns button, .Post__main-btns button {
+    background-color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+    color: #632a94;
+    cursor: pointer;
+}
+

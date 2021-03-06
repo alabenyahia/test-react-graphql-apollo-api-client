@@ -1,0 +1,71 @@
+.Home {
+    margin: 48px 0;
+}
+
+.Home h2 {
+    margin: 20px auto;
+    font-size: 2rem;
+    color: #EEC643;
+    width: 80%;
+
+}
+
+.Home form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0 48px 0;
+}
+
+.Home form input[type="text"]{
+    border: 6px solid #EC4067;
+    border-radius: 4px;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.Home form label {
+    width: 80%;
+    margin: 10px 0;
+}
+
+.Home form input[type="submit"] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 3px;
+    background-color: #EC4067;
+    color: white;
+    transition: transform 200ms ease-in;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.Home form input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.Home .Home__user {
+    margin: 48px 0;
+}
+
+.Home .Home__user h3, .Home .Home__post h3 {
+    font-size: 1.7rem;
+    color: #EEC643;
+}
+
+.Home__msgs {
+    margin: 48px auto;
+    width: 80%;
+}
+
+.Home__msgs-error{
+    background-color: #ff4444;
+    padding: 16px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+

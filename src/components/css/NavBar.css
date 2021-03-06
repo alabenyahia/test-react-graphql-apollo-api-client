@@ -1,0 +1,33 @@
+.NavBar {
+    background-color: #EEC643;
+    position: sticky;
+    top: 0;
+}
+
+.NavBar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 48px;
+    height: 58px;
+
+
+}
+
+.NavBar ul li {
+    line-height: 58px;
+    box-sizing: border-box;
+    margin: 0 16px;
+}
+
+
+.NavBar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.NavBar ul li:hover {
+    border-bottom: 6px solid black;
+}
